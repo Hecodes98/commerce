@@ -1,0 +1,17 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "Pagina de e-commerce para la distribucion de apptitud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commerce"
+  ],
+  "author": "Apptitud",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
+}

@@ -1,0 +1,379 @@
+.alert__styles{
+    width: 100%;
+    position: fixed;
+    top:-55px;
+    z-index: 10;
+    transition: all .2s ease-in;
+}
+
+.alert__display{
+    top: 0
+}
+
+.navbar{
+    z-index: 9;
+}
+
+.star-rating{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.star-rating a {
+    display: inline-block;
+    color: #95a5a6; /* gris (normal) */
+    font-size: 17px;
+  }
+  .star-rating:hover a {
+    color: #f39c12; /* amarillo (seleccionado) */
+  }
+    .star-rating:hover a:hover ~ a {
+      color: #95a5a6; /* gris (normal) */
+    }
+
+.right{
+    justify-content: flex-end;
+    text-align: center
+}
+
+.bg-light__scroll{
+    background-color: #f8f9fa;
+    padding: 0;
+    transition: all .4s ease;
+    -webkit-box-shadow: 0px 11px 23px 3px rgba(59,58,59,1);
+    -moz-box-shadow: 0px 11px 23px 3px rgba(59,58,59,1);
+    box-shadow: 0px 11px 23px 3px rgba(59,58,59,1);
+}
+
+.bg-light__scroll #navbarNavAltMarkup div a{
+    color: black !important;
+    padding: 1px 10px;
+    font-weight: 600;
+}
+
+.bg-light{
+    background-color: #f8f9fa;
+    transition: all .4s ease;
+}
+
+.image__slide{
+    height: 60vh;
+}
+
+
+
+@media only screen and (min-width: 992px){
+    
+.bg-light{
+    background-color: transparent !important;
+}
+
+}
+
+.nav-item{
+    color: aliceblue !important
+}
+
+.surface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(51, 50, 49, 0.15);
+}
+
+@media only screen and (min-width: 768px){
+    .image__slide{
+        height: auto;
+    }   
+}
+
+
+.descSurface{
+    display: none;
+}
+
+@media only screen and (min-width: 768px){
+    .descSurface{
+        display: block;
+        color: aliceblue;
+        text-align: center;
+        text-transform: uppercase
+    }
+}
+
+
+
+.surfaceTitle{
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.firstTitle{
+    color: aliceblue;
+    padding: 10px;
+    border: 4px solid aliceblue;
+    text-align: center;
+    text-transform: uppercase
+}
+
+
+
+.btn__center{
+    padding: 8px 80px;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.center__nav{
+    justify-content: center;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.nav-link{
+    color: #555  !important;
+    text-transform: uppercase;
+}
+
+
+#products{
+    margin-top: 20px;
+}
+
+.nav__section--products{
+    font-size: 13px;
+    padding: 15px 20px;
+}
+
+.nav__section--products.active{
+    border-radius: 0;
+    background-color: aliceblue !important;
+    border-bottom: 3px solid #E7214C;
+    color: #E7214C !important;
+}
+
+.desc__product h4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 400;
+    margin-bottom: 0
+}
+
+
+.img__product{
+    width: 100%;
+    position: relative;
+}
+
+.surface--ticket{
+    position: absolute;
+    top: 17px;
+    left: 0;
+    background-color: #E7214C;
+    padding: 1px 13px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: aliceblue;
+    transition: all .4s ease
+}
+
+.products--trending:hover .surface--ticket{
+    padding: 1px 20px;
+}
+
+.prices{
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+    margin: 0 5px
+}
+
+.products--trending{
+    margin-top: 20px;
+}
+
+.price__before{
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: line-through;
+}
+
+.price__now{
+    color: #E7214C;
+    font-weight: 400;
+}
+
+.btn__cart--section{
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}   
+
+.button1:hover {
+    background-color: #332f2f;
+    color: #fff
+}
+
+.button2:hover {
+    background-color: #684d4d;
+    color: #fff;
+}
+
+.products--trending:hover .btn__cart--section{
+    border: 1px solid #332f2f;
+}
+
+.btn-group{
+    margin-top: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+section#promo{
+    margin-top: 40px;
+    background-image: url('../images/store.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.desc{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto
+}
+
+.desc h2{
+    padding: 7px 0;
+    border: 3px solid aliceblue;
+    font-size: 2em;
+}
+
+.desc h3{
+    font-size: 1.4em;
+}
+
+.desc h5{
+    display: none;
+}
+
+@media only screen and (min-width: 992px){
+    .desc{
+        text-align: center;
+        color: #fff;
+        width: 80%;
+        margin: 0 auto
+    }
+
+    .desc h2{
+        padding: 7px 0;
+        border: 3px solid aliceblue;
+        font-size: 2.5em;
+    }
+    
+    .desc h3{
+        font-size: 1.6em;
+    }
+    
+    .desc h5{
+        display: block;
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .desc h5{
+        display: block;
+        display: 1em
+    }
+}
+
+.btn-danger{
+    margin-top: 15px;
+    padding: 15px 50px;
+    text-transform: uppercase;
+}
+
+#brands{
+    padding: 7em 0;
+}
+
+
+.desc__brands{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.title__brands{
+    font: 400 25px "Roboto Condensed";
+    position: relative;
+    color: #42464d;
+    display: block;
+    padding: 0 0 15px 0;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+.title__brands:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background: #E7214C;
+    bottom: 0;
+
+}
+
+.text__brands{
+    margin: 0 auto;
+    font: 300 14px/1.6em "Roboto";
+    color: #666b76; 
+}
+
+.wrapperImage--brand{
+    padding: 10px 0;
+}
+
+.images__brands{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.image__brand{
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background-color: #263238;
+}
+
+.footer-copyright{
+    overflow: hidden;
+    background-color: rgba(0,0,0,.2);
+    color: rgba(255,255,255,.6);
+}
+
+
+
